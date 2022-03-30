@@ -1,0 +1,5 @@
+torch
+adapter-transformers
+ftfy
+tqdm
+sklearn
