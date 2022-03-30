@@ -124,4 +124,4 @@ We pre-trained adapter modules for RoBERTa on three programming languages (Pytho
 
 ## Cite
 
-If you use this code or our pre-trained adapter modules, please consider citing Our Paper:
+If you use this code or our pre-trained adapter modules, please cite the paper:
