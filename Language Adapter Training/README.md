@@ -9,7 +9,7 @@ Our script uses a custom training loop and leverages the 🤗 Accelerate library
 We provide support to run training and validation both for datasets hosted on the 🤗 [hub](https://huggingface.co/datasets) or with your own text files.
 You can easily customize them to your needs if you need extra processing on your datasets.
 
-Before getting started with adapter training, make sure to have everything set up by following the instructions provided [here](link_to_root).
+Before getting started with adapter training, make sure to have everything set up by following the instructions provided [here](https://github.com/fardfh-lab/NL-Code-Adapter).
 
 ## Datasets
 We train and evaluate language adapters on two datasets: [CodeNet](https://developer.ibm.com/exchanges/data/all/project-codenet/) by IBM, and [CodeSearchNet](https://github.com/github/CodeSearchNet) which was a joint effort from GitHub and Microsoft Research. 
@@ -65,10 +65,10 @@ To fine-tune pre-trained language adapters on a custom dataset, you just need to
 ## Evaluating the Language Adapters
 Running the training script with the `--do_eval` flag will print the perplexity scores of the model during language adapter pre-training after each epoch. While looking at the perplexity is a good way to ensure that adapter training with masked language modeling is headed in the right direction, perplexity is a weak measure to evaluate the overall performance of the LM. 
 
-To probe deeper, we evaluate the trained language adapters on various *Cloze Style Tests* presented alongwith the [CodeXGLUE](https://github.com/microsoft/CodeXGLUE) benchmark. For implementation details and more information about the tests, please view the section on [cloze-testing](link_to_cloze).
+To probe deeper, we evaluate the trained language adapters on various *Cloze Style Tests* presented alongwith the [CodeXGLUE](https://github.com/microsoft/CodeXGLUE) benchmark. For implementation details and more information about the tests, please view the section on [cloze-testing](https://github.com/fardfh-lab/NL-Code-Adapter/tree/main/ClozeTest).
 
 ## Cite
-If you use this code or our pre-trained language adapters, please consider citing Our Paper and AdapterHub:
+If you use this code or our pre-trained language adapters, please consider citing the Paper and AdapterHub:
 
 <pre><code>@inproceedings{pfeiffer2020AdapterHub,
     title={AdapterHub: A Framework for Adapting Transformers},

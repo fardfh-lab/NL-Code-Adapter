@@ -120,7 +120,7 @@ You can then add a custom task-specific head to get the final outputs from the m
 
 ## Pretrained Adapters
 
-We pre-trained adapter modules for RoBERTa on three programming languages (Python, Java and C/C++) spanning two benchmark datasets ([Project CodeNet](https://developer.ibm.com/exchanges/data/all/project-codenet/) and [CodeSearchNet](https://github.com/github/CodeSearchNet)). The pre-trained modules can be loaded directly from the [AdapterHub](https://docs.adapterhub.ml) or can be downloaded from [our lab's website](link).
+We pre-trained adapter modules for RoBERTa on three programming languages (Python, Java and C/C++) spanning two benchmark datasets ([Project CodeNet](https://developer.ibm.com/exchanges/data/all/project-codenet/) and [CodeSearchNet](https://github.com/github/CodeSearchNet)). The pre-trained modules can be loaded directly from the [AdapterHub](https://docs.adapterhub.ml) or can be downloaded from [our lab's website](https://fardlab.ok.ubc.ca/artifacts/).
 
 ## Cite
 
