@@ -1,6 +1,6 @@
 # MODE-X
 
-This repo provides the code for reproducing the experiments in [On The Cross-Modal Transfer from Natural Language to Code through Adapter Modules](arXiv_link). We explored the bimodality of adapter modules to facilitate cross-modal transfer from large pre-trained neural language models to other language modalities, i.e. source code. Specifically, we trained adapters on three programming languages (Python, Java and C/C++) for the pre-trained [RoBERTa](https://huggingface.co/docs/transformers/model_doc/roberta#transformers.RobertaConfig) language model, and tested them on the downstream task of Code Clone Detection. We also tested the semantic and syntactic representation learned by the adapter modules using appropriate [Cloze Style Testing](./ClozeTest/) for six programming languages.
+This repo provides the code for reproducing the experiments in [On The Cross-Modal Transfer from Natural Language to Code through Adapter Modules](https://dl.acm.org/doi/abs/10.1145/3524610.3527892). We explored the bimodality of adapter modules to facilitate cross-modal transfer from large pre-trained neural language models to other language modalities, i.e. source code. Specifically, we trained adapters on three programming languages (Python, Java and C/C++) for the pre-trained [RoBERTa](https://huggingface.co/docs/transformers/model_doc/roberta#transformers.RobertaConfig) language model, and tested them on the downstream task of Code Clone Detection. We also tested the semantic and syntactic representation learned by the adapter modules using appropriate [Cloze Style Testing](./ClozeTest/) for six programming languages.
 
 <p align="center">
 <img src="expSetup.png" width="600">
@@ -124,4 +124,13 @@ We pre-trained adapter modules for RoBERTa on three programming languages (Pytho
 
 ## Cite
 
-If you use this code or our pre-trained adapter modules, please cite the paper:
+If you use this code or our pre-trained adapter modules, please cite our paper:
+```
+@inproceedings{goel2022cross,
+  title={On the cross-modal transfer from natural language to code through adapter modules},
+  author={Goel, Divyam and Grover, Ramansh and Fard, Fatemeh H},
+  booktitle={Proceedings of the 30th IEEE/ACM International Conference on Program Comprehension},
+  pages={71--81},
+  year={2022}
+}
+```
